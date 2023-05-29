@@ -1,0 +1,486 @@
+body {
+    font-family: 'Inter';
+    font-weight: 400;
+    background: #F5F5F5;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: -0.02em;
+}
+
+h2 {
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.heading,
+.bg-light {
+    background: #000 url(img/top-bg.jpg) 50% 50%;
+    padding: 60px 0 0;
+    background-size: cover;
+
+}
+
+.heading .container {
+    position: relative;
+    height: 670px;
+}
+
+.heading .text-muted {
+    color: #fff;
+    font-size: 14px;
+}
+
+.intro-text {
+    max-width: 500px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: auto;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+}
+
+.logo-box {
+    margin-bottom: 25px;
+}
+
+.search-box {
+    margin: 28px auto 25px;
+    width: 570px;
+}
+
+.search-box input {
+    height: 40px;
+    background: #fff;
+    border-radius: 8px;
+    padding-left: 15px;
+    border: 1px solid #fff;
+}
+
+.search-box .btn-primary {
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    background: #fff;
+    padding-left: 20px;
+    font-size: 22px;
+    line-height: 22px;
+    color: #3D4DB6;
+    border: 1px solid #fff;
+    border-radius: 0 8px 8px 0;
+}
+
+.feature-wrapper {
+    position: absolute;
+    bottom: -100px;
+    left: auto;
+    width: 100%;
+}
+
+.feature-box {
+    background: #FFFFFF;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    box-shadow: 14px 8px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    transition: box-shadow .25s ease, transform .25s ease;
+}
+
+.feature-box:hover {
+    box-shadow: 14px 12px 10px rgba(0, 0, 0, 0.15);
+}
+
+.feature-icon {
+    display: block;
+    float: left;
+    text-align: left;
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 35px;
+}
+
+.feature-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+    text-decoration: none;
+    text-align: left;
+    margin-bottom: 14px;
+    display: block;
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+
+.feature-desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+
+.feature-more {
+    float: left;
+    width: 100%;
+    text-align: right;
+    display: block;
+}
+
+.learn {
+    padding: 250px 0 0;
+}
+
+.learn h2 {
+    margin-bottom: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.learn-icon {
+    height: 105px;
+    width: 105px;
+    text-align: center;
+    margin-bottom: 25px;
+    vertical-align: middle;
+    border-radius: 4px;
+    float: left;
+    margin-top: 5px;
+    display: block;
+    background: rgba(255, 242, 130, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn-icon img {
+    height: 75px;
+    width: auto;
+}
+
+.learn-icon.icon-02 {
+    background: rgba(255, 212, 130, 0.2);
+}
+
+.learn-icon.icon-03 {
+    background: rgba(200, 255, 130, 0.2);
+}
+
+.learn-icon.icon-04 {
+    background: rgba(130, 195, 255, 0.2);
+}
+
+.learn-icon.icon-05 {
+    background: rgba(200, 130, 255, 0.2);
+}
+
+.learn-icon.icon-06 {
+    background: rgba(255, 130, 220, 0.2);
+}
+
+.learn-wrapper .feature-title {
+    margin-bottom: 8px;
+}
+
+
+.trainings {
+    padding: 185px 0 100px;
+}
+
+.trainings .container {
+    position: relative;
+}
+
+.more-link {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333;
+    text-decoration: none;
+}
+
+.trainings h3 {
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 45px;
+    font-size: 32px;
+    text-align: left;
+    line-height: 39px;
+    color: #333;
+}
+
+.training-row {
+    margin-bottom: 25px;
+}
+
+.training-row a {
+    background: #D9D9D9;
+    width: 100%;
+    height: 95px;
+    display: block;
+}
+
+
+.eosc-navy {
+    padding: 75px 0 45px;
+    background: #000745;
+    color: #fff
+}
+
+.eosc-navy .eosc-logo-navy {
+    width: 210px;
+    height: auto;
+    max-width: 100%
+}
+
+.eosc-navy h4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    border: none;
+    padding: 0;
+    margin: 10px 0 0
+}
+
+.eosc-navy .eosc-info {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px
+}
+
+.eosc-navy .eosc-info .eosc-info-icon {
+    margin-right: 20px;
+    transition: all .5s ease
+}
+
+.eosc-navy .eosc-info:hover .eosc-info-icon {
+    margin-top: 5px
+}
+
+.eosc-navy .eosc-info .eosc-info-texts .eosc-info-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration: underline;
+    margin-bottom: 19px;
+    color: #fff
+}
+
+.eosc-navy .eosc-info .eosc-info-texts .eosc-info-subtitle {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #fff
+}
+
+
+.questions {
+    padding: 120px 0 150px;
+    background: #fff;
+}
+
+.questions h3 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 600;
+    margin: 35px 0 15px
+}
+
+.questions .questions-pic {
+    margin: 55px 0 0 25px;
+}
+
+
+.questions .blue-link:hover {
+    color: #000745
+}
+
+.questions #zammad-feedback-form {
+    background: none;
+    border: none
+}
+
+.questions .zammad-form-group {
+    text-align: left
+}
+
+.questions .textarea {
+    height: 180px
+}
+
+.questions .btn,
+.questions .shepherd-content .shepherd-footer .shepherd-button:not(.close-link),
+.shepherd-content .shepherd-footer .questions .shepherd-button:not(.close-link) {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 0;
+    margin-top: 10px
+}
+
+.questions .btn {
+    background: #144b9e;
+    border-radius: 8px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 0;
+    margin-top: 10px;
+}
+
+.zammad-form-control {
+    margin-top: 6px;
+}
+
+.vertical-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.recent {
+    padding: 200px 0 130px;
+    background: linear-gradient(180deg, rgba(237, 243, 250, 0) 0%, #EDF3FA 100%);
+}
+
+.recent-target {
+    background: rgba(255, 130, 220, 0.2);
+    border-radius: 4px;
+    padding: 5px 10px;
+    color: #FF2EC4;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.mr-5 {
+    margin-right: 30px;
+}
+
+.ml-5 {
+    margin-left: 30px;
+}
+
+@media (max-width:992px) {
+
+    .logo-box {
+        margin-bottom: 25px;
+    }
+
+    .heading .container {
+        height: auto;
+    }
+
+    .feature-wrapper {
+        position: relative;
+        bottom: auto;
+    }
+
+    h1 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .intro-text {
+        max-width: 90%;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .search-box {
+        margin: 28px auto 60px;
+        width: 80%;
+    }
+
+    .learn {
+        padding: 70px 0 0;
+    }
+
+    .feature-box {
+        margin-bottom: 25px;
+    }
+
+    .feature-title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .feature-desc {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .learn-wrapper .mb-4 {
+        margin-bottom: 0 !important;
+    }
+
+    .eosc-navy h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .recent,
+    .trainings {
+        padding: 60px 0 50px;
+    }
+
+    .questions {
+        padding: 60px 0 50px;
+    }
+
+    .ml-5,
+    .mr-5 {
+        margin: 0;
+    }
+
+    .trainings h3 {
+        margin-bottom: 10px;
+        font-size: 25px;
+        line-height: 35px;
+        color: #333;
+    }
+
+    .more-link {
+        position: relative;
+        top: 0;
+        right: 0;
+        text-align: left;
+        font-size: 18px;
+        margin-bottom: 30px;
+        width: 100%;
+        display: block;
+    }
+    
+    .contact-form {
+        margin-top: 45px;
+    }
+}
