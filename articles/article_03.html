@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../index.css">
+    <script src="https://s3.cloud.cyfronet.pl/eosc-portal-common/latest/index.beta.min.js" charset="utf-8"></script>
+    <link
+            rel="stylesheet"
+            href="https://s3.cloud.cyfronet.pl/eosc-portal-common/latest/index.beta.min.css"
+    />
+</head>
+<body style="background-color: white;">
+<eosc-common-main-header></eosc-common-main-header>
+<div style="background-color: #000b1b; background-image: url('../img/banner2.png'); background-position-x: right; background-repeat: no-repeat;">
+    <div class="img_placholder">
+        <h1 class="article_title">How do you adequately describe your research output</h1>
+        <div class="article_tags_container">
+            <div class="article_tag">EOSC</div>
+            <div class="article_tag">EOSC Marketplace</div>
+            <div class="article_tag">Scientific Research</div>
+            <div class="article_tag">Advanced Search</div>
+            <div class="article_tag">Research Catalog</div>
+        </div>
+        <div class="article_header_auth">
+            <p><strong>Author name:</strong> Anna Wałek</p>
+        </div>
+        <div class="article_info_container">
+            <div class="article_info">
+                <div class="details_container"><img src="../../img/usage-date.svg"><span>01 December 2023</span></div>
+                <div class="details_container"><img src="../../img/clock.svg"><span>8 min</span></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container--xxl">
+    <div class="content">
+
+        <h6 class="article_paragraph_header">Introduction</h6>
+        <p>
+            Documentation and metadata are essential to understand your data in detail and help other researchers find and re-use your data. You can provide information about the dataset's content, the context in which the data were captured or created, and the origin of the dataset. Documentation and metadata are essential in making your data FAIR:
+        </p>
+        <ul class="article_bumbs">
+            <li><strong>Findable</strong> - keywords, topics, DOI, controlled vocabularies, repository metadata standards, metadata exchange</li>
+            <li><strong>Accessible</strong> - metadata is open, wherever possible, even if the data aren’t</li>
+            <li><strong>Interoperable</strong> - standards, ontologies and controlled vocabularies</li>
+            <li><strong>Reusable</strong> - describe your data so other researchers can understand your data</li>
+        </ul>
+
+        <h6 class="article_paragraph_header h6_next">Metadata</h6>
+        <p>
+            Metadata is data about data. It plays an essential role in making your data FAIR. Metadata should be continuously added to your research data, not just at the beginning or end of a project. Metadata can be added manually or automatically, preferably according to a disciplinary standard. From a FAIR perspective, metadata is more important than your data because metadata should always be openly available and link research data and publications in the Internet of FAIR Data and Services.
+            While data documentation is meant to be read and understood by humans, metadata (sometimes a part of the documentation) is primarily meant to be processed by machines.<br>
+            There are three main types of metadata:
+        </p>
+        <ul class="article_bumbs">
+            <li><strong>Administrative metadata</strong> - data about a project or resource that is relevant for managing it; for example, project/resource owner, principal investigator, project collaborators, funder, project period, etc. They are usually assigned to the data before you collect or create them.</li>
+            <li><strong>Descriptive or citation metadata</strong> - data about a dataset or resource that allows people to discover and identify it; for example, authors, titles, abstracts, keywords, persistent identifiers, related publications, etc.</li>
+            <li><strong>Structural metadata</strong> - data about how a dataset or resource came about and how it is internally structured. Structural metadata describes, for example, the unit of analysis, collection method, sampling procedure, sample size, categories, variables, etc. Structural metadata should be gathered by the researchers according to best practices in their research community and be published together with the data. Descriptive and structural metadata should be added continuously throughout the project.</li>
+        </ul>
+        <p>
+            An excellent way to determine what metadata to capture is to think about the information someone else would need to understand your project and reuse the data. Many disciplines, repositories, or data centres use metadata standards or schemas. A metadata standard is a defined set of metadata fields that can be general or discipline-specific.
+        </p>
+
+
+        <h6 class="article_paragraph_header h6_next">Metadata Standards</h6>
+        <p>
+            There are many metadata standards. General, field, and institutional standards can be specified. The general metadata standards are Dublin Core and DataCite, or the Data Documentation Initiative (DDI). They are universal in the field and widely used. Selected metadata standards are also used in various fields and institutions, e.g., DC (life sciences), EML (ecology), SDMX (ECB, EUROSTAT, IMF, OECD, UN), SAFE (ESA), INSPIRE ISO 19139 (earth sciences), Project Open Data Metadata Schema v1.1 (US federal agencies), TEI and CDWA (humanities disciplines).
+            Metadata standards specific to various disciplines can be found on the Data Curation Centre website <a href="https://www.dcc.ac.uk/guidance/standards/metadata/list">https://www.dcc.ac.uk/guidance/standards/metadata/list</a>.
+        </p>
+
+
+        <h6 class="article_paragraph_header h6_next">Documentation</h6>
+        <p>
+            Documentation is also needed to describe the data correctly.
+            It includes contextual and descriptive features of the data and all the information someone needs to understand the data to be able to use it.
+            It’s significant at the dataset level (e.g. describing how the data were created) but also at the level of individual data elements (e.g. explaining what each variable means or the parameters for generating data files such as images).
+            Examples: protocols, codebook (with an explanation of concepts, names, variables, and abbreviations), lab journals, code explanation in the file, methodological information, and information about the structure of a dataset.
+        </p>
+
+        <h6 class="article_paragraph_header h6_next">Readme</h6>
+        <p>
+            A README file is plain text with descriptive information commonly used for software, games, and code. It is a supplementary document so the creator can explain the contents to the user. When working with data, creating and including a README file with your data can be useful. This ensures that future users understand the data, terms, and more.
+        </p>
+        <p>
+            README files are a simple way to create documentation for a dataset,
+        </p>
+        <ul class="article_bumbs">
+            <li>it should make your data understandable and usable,
+            </li>
+            <li>it should provide the data context, i.e. to which research project the data belongs, and how it should be interpreted,</li>
+            <li>it should allow users to understand how a dataset relates to others.</li>
+        </ul>
+        <p>
+            The README file must be accessible at the exact location of the data. The README file's name must clarify which file or dataset it describes. The location of the README file in the folder structure can also show which dataset it belongs to.
+            You can provide one README file for an entire research project.
+        </p>
+        <p>
+            It is essential to mention information on the context in which the data were gathered, the origin of the data, and the dataset's content. The person who opens the file has to understand what the dataset is about. You should also include any technical information needed to open a dataset, for example, the required software or specifications about file formats. To make it clear, you should explain the dataset's structure or what the abbreviations mean. Information about rights on the dataset or the confidentiality of data is best explicitly mentioned in the README file. The person opening the dataset must be aware of the legal implications of its use.
+        </p>
+
+        <div class="author_desc_container">
+            <img class="auth_face" src="../img/auth_img_03.png"/>
+            <p class="author_desc_name">
+                Written by <strong>Anna Wałek</strong>
+            </p>
+            <p class="author_desc_role">
+                <span>Ph.D, President of IATUL, Open Science and RDM expert ACC Cyfronet AGH</span><br>
+            </p>
+        </div>
+
+    </div>
+    <div class="articles_container">
+        <div class="column">
+            <div class="suggested">
+                    <div class="box">
+                        <a href="article_01.html" class="redirect_article_box">
+                        <div class="article_desc_container">
+                            <p class="article_title_box">
+                                Exploration Toolkit
+                            </p>
+                            <p class="article_desc">
+                                Navigating EOSC<br>Catalogue & Marketplace
+                            </p>
+                        </div>
+                            <img src="../../img/ei_arrow-left.svg" class="box_article_img">
+                        </a>
+                    </div>
+                <div>
+                        <div class="box">
+                            <a href="article_02.html" class="redirect_article_box">
+                            <div class="article_desc_container">
+                                <p class="article_title_box">
+                                    Searching Pathways
+                                </p>
+                                <p class="article_desc">
+                                    Smart Strategies<br>
+                                    for EOSC Exploration
+                                </p>
+                            </div>
+                                <img src="../../img/ei_arrow-left.svg" class="box_article_img">
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<eosc-common-main-footer></eosc-common-main-footer>
+<eosc-common-eu-information></eosc-common-eu-information>
+<script>
+    window.eosccommon.renderMainFooter('eosc-common-main-footer');
+    window.eosccommon.renderMainHeader('eosc-common-main-header');
+    window.eosccommon.renderEuInformation('eosc-common-eu-information');
+</script>
+</body>
+</html>
