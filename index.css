@@ -188,7 +188,7 @@ a {
 }
 
 .learn {
-    padding: 250px 0 0;
+    padding: 230px 0 0;
 }
 
 .learn h2 {
@@ -1008,9 +1008,6 @@ ul li {
     .feature-more {
         display: none;
     }
-    .learn-wrapper .mb-4 {
-        margin-bottom: 0 !important;
-    }
 
     .eosc-navy {
         margin-top: 80px !important;
@@ -1076,6 +1073,15 @@ ul li {
         align-items: flex-start;
         gap: 10px;
         flex-wrap: wrap;
+    }
+
+    .learn-wrapper .col-lg-4 {
+        margin-bottom: 25px;
+    }
+
+    .feature-box {
+        justify-content: center;
+        align-items: center;
     }
 
 }
