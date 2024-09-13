@@ -35,7 +35,7 @@
                         </div>
 
                         <div class="search-box">
-                            <form id="search-form" method="GET" action="https://beta.search.marketplace.eosc-portal.eu/search/training">
+                            <form id="search-form" method="GET" action="https://search.marketplace.sandbox.eosc-beyond.eu/search/training">
                                 <div class="input-group">
                                     <input id="query-input-visible" type="text" class="form-control" placeholder="Search in catalogs">
                                     <input id="query-input" name="q" type="hidden">
@@ -71,7 +71,7 @@
                                         </span>
                             </a>
 
-                            <a href="https://beta.search.marketplace.eosc-portal.eu/search/training?q=*" class="feature-box">
+                            <a href="https://search.marketplace.sandbox.eosc-beyond.eu/search/training?q=*" class="feature-box">
                                         <span class="feature-icon">
                                             <img src="img/feature-01.svg">
                                         </span>
@@ -280,7 +280,7 @@
                 </div>
                 <div class="row mt-5">
                     <div class="col-lg-3 col-md-6 col-sm-12">
-                        <a class="eosc-info" href="https://beta.marketplace.eosc-portal.eu/">
+                        <a class="eosc-info" href="https://marketplace.sandbox.eosc-beyond.eu/">
                             <div class="eosc-info-icon">
                                 <img alt="Browse Marketplace" src="img/browse-marketplace.svg">
                             </div>
@@ -294,7 +294,7 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
-                        <a class="eosc-info" href="https://beta.my.eosc-portal.eu/main">
+                        <a class="eosc-info" href="https://my.sandbox.eosc-beyond.eu/main">
                             <div class="eosc-info-icon">
                                 <img alt="My EOSC Dashboard" src="img/dashboard.svg">
                             </div>
@@ -307,21 +307,21 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
-                        <a class="eosc-info" href="https://eosc-portal.eu/">
+                        <a class="eosc-info" href="https://sandbox.eosc-beyond.eu/">
                             <div class="eosc-info-icon">
-                                <img alt="EOSC Portal" src="img/portal.svg">
+                                <img alt="EOSC Core Innovation Sandbox" src="img/portal.svg">
                             </div>
                             <div class="eosc-info-texts">
-                                <div class="eosc-info-title">EOSC Portal</div>
+                                <div class="eosc-info-title">EOSC Core Innovation Sandbox</div>
                                 <div class="eosc-info-subtitle">
-                                    Stay up to date with news and events. Read use cases or success stories that highlight how EOSC
-                                    resources can support the daily work of researchers and innovators.
+                                    Your pre-production environment for testing and staging within the EOSC Platform.
+                                    It's designed for EOSC Core service providers, EOSC Exchange service providers, and EOSC Nodes to integrate seamlessly with EOSC.
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
-                        <a class="eosc-info" href="https://beta.providers.eosc-portal.eu/home">
+                        <a class="eosc-info" href="https://integration.providers.sandbox.eosc-beyond.eu/home">
                             <div class="eosc-info-icon">
                                 <img alt="Providers Hub" src="img/hub.svg">
                             </div>
@@ -448,15 +448,15 @@
                                     <div class="form-group zammad-form-group"><label for="zammad-form-email-inline"> Email</label><input class="form-control zammad-form-control" id="zammad-form-email-inline" name="email" type="email" placeholder="Your Email" value="" required=""></div>
                                     <div class="form-group zammad-form-group"><label for="zammad-form-subject-inline"> Subject</label><input class="form-control zammad-form-control" id="zammad-form-subject-inline" name="title" type="undefined" placeholder="My subject" value=""></div>
                                     <div class="form-group zammad-form-group"><label for="zammad-form-body-inline"> Message</label><textarea class="form-control zammad-form-control" id="zammad-form-body-inline" name="body" placeholder="Your Message..." rows="7" required=""></textarea></div>
-                                    <div class="form-group zammad-form-group"><label for="zammad-form-agreement-inline"><input type="checkbox" name="agreement" id="zammad-form-agreement-inline" class="zammad-form-checkbox" required=""> Accept EOSC Helpdesk <a target="_blank" href="https://eosc-helpdesk.scc.kit.edu/privacy-policy">Data Privacy Policy</a> &amp; <a target="_blank" href="https://eosc-helpdesk.scc.kit.edu/aup">Acceptable Use Policy</a></label></div>
+                                    <div class="form-group zammad-form-group"><label for="zammad-form-agreement-inline"><input type="checkbox" name="agreement" id="zammad-form-agreement-inline" class="zammad-form-checkbox" required=""> Accept EOSC Helpdesk <a target="_blank" href="https://helpdesk.sandbox.eosc-beyond.eu/privacy-policy">Data Privacy Policy</a> &amp; <a target="_blank" href="https://helpdesk.sandbox.eosc-beyond.eu/aup">Acceptable Use Policy</a></label></div>
                                 </form>
                             </div>
                         </button>
-                        <script id="zammad_form_script" src="https://eosc-helpdesk.eosc-portal.eu/assets/form/form.js"></script>
+                        <script id="zammad_form_script" src="https://helpdesk.sandbox.eosc-beyond.eu/assets/form/form.js"></script>
                         <script>
                             $(function() {
                                 $('#zammad-feedback-form').ZammadForm({
-                                    agreementMessage: '  Accept EOSC Helpdesk <a target="_blank" href="https://eosc-helpdesk.scc.kit.edu/privacy-policy">Data Privacy Policy</a> & <a target="_blank" href="https://eosc-helpdesk.scc.kit.edu/aup">Acceptable Use Policy</a>',
+                                    agreementMessage: '  Accept EOSC Helpdesk <a target="_blank" href="https://helpdesk.sandbox.eosc-beyond.eu/privacy-policy">Data Privacy Policy</a> & <a target="_blank" href="https://helpdesk.sandbox.eosc-beyond.eu/aup">Acceptable Use Policy</a>',
                                     messageTitle: 'Report a problem/feedback',
                                     messageSubmit: 'Submit',
                                     messageThankYou: 'Thank you for your inquiry (#%s)! We\'ll contact you as soon as possible.',
