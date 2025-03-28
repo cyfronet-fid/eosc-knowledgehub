@@ -68,7 +68,7 @@ a {
 
 .heading .container {
     position: relative;
-    height: 670px;
+    height: 570px;
 }
 
 .heading .text-muted {
@@ -192,7 +192,7 @@ a {
 }
 
 .learn {
-    padding: 250px 0 0;
+    padding: 0;
 }
 
 .learn h2 {
